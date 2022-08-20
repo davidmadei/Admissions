@@ -1,0 +1,49 @@
+.heading{
+    font-family: "brandon-grot-w01-light",sans-serif;
+    color:#000000;
+    font-size:17px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+.heading2{
+    font-family: "brandon-grot-w01-light",sans-serif;
+    color:#000000;
+    font-size:17px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    padding-top:30px;
+}
+.content p{
+    font-family:'futura-lt-w01-light',sans-serif;
+    font-size:15px;
+    line-height: 1.8em;
+    word-spacing:8px;
+}    
+.content{
+    position: relative;
+    left:230px;
+    top:25px;
+    bottom:50px;
+    color: #000000;
+    text-align:justify;
+}
+.content ul{
+    font-family:'futura-lt-w01-light',sans-serif;
+    font-size:15px;
+    line-height: 1.8em;
+    word-spacing:2px;
+    position:relative;
+    top:-12px;
+}   
+.content .end{
+    position: relative;
+    top:-25px;
+    word-spacing: 2px;
+}
+.content .end1{
+    position: relative;
+    word-spacing:2px;
+    top:-37px;
+} 
