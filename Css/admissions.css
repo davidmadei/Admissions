@@ -1,3 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.navbar{
+    overflow: hidden;
+    font-family: Arial;
+    padding: 50px 390px;
+    background-color: white;
+    justify-content: space-around;
+}
+
+.navbar a {
+    float: left;
+    font-size: 14px;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+.dropdown{
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .active{
+    background-color: #012646; 
+    color: white;
+    padding: 14.3px 14.3px;
+    border: none;
+}
+
+.dropdown .active:hover{
+    background-color: rgb(173, 216, 230);
+    color: rgb(56, 56, 62);
+}
+
+.dropdown .dropbtn {
+    font-size: 14px;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #bfd6ea;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    white-space: 5px;
+} 
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+ .dropdown-content a:hover {
+    background-color: lightblue; 
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.main{
+    display: block;
+}
+
+.main .bg-image{
+    background-image: url(../images/5eac6c98a49545f38822ca343e02b2b9.jpg);
+    width: 100vw;
+    /* height: 40vh; */
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    background-size: cover;
+    /* background-position: fixed; */
+}
+
+.main h1{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20vh 0;
+    font: 53px "palatino linotype", serif;
+    color: #012646;
+    letter-spacing: 0.2em;
+}
+
+.container{
+    background-color: white;
+}
+
+
 .heading{
     font-family: "brandon-grot-w01-light",sans-serif;
     color:#000000;
@@ -28,11 +137,12 @@
     bottom:50px;
     color: #000000;
     text-align:justify;
+    line-height: 2em;
 }
 .content ul{
     font-family:'futura-lt-w01-light',sans-serif;
     font-size:15px;
-    line-height: 1.8em;
+    line-height: 2em;
     word-spacing:2px;
     position:relative;
     top:-12px;
@@ -47,3 +157,15 @@
     word-spacing:2px;
     top:-37px;
 } 
+
+.before-footer{
+    text-align: center;
+    padding: 100px 0;
+    /* background-color: #012646; */
+}
+
+.before-footer span{
+    font: 36px futura-lt-w01-light, sans-serif;
+    color: #012646;
+  
+}
